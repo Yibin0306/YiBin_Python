@@ -29,3 +29,26 @@ print(num)
 **= 幂赋值运算符 c**=a 等效于 c=c**a
 //= 取整赋值运算符 c//=a 等效于 c=c//a
 """
+
+# 复合赋值运算符
+num_1 = 1
+num_1 += 1
+print("num_1 += 1:",num_1)
+num_1 -= 1
+print("num_1 -= 1:",num_1)
+
+num_1 = 2
+num_1 /= 2
+print("num_1 /= 2:",num_1)
+num_1 = 2
+num_1 *= 2
+print("num_1 *= 2:",num_1)
+num_1 = 3
+num_1 %= 2
+print("num_1 %= 2:",num_1)
+num_1 = 2
+num_1 **= 2
+print("num_1 **= 2:",num_1)
+num_1 = 9
+num_1 //= 2
+print("num_1 //= 2:",num_1)
