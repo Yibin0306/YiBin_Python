@@ -7,28 +7,24 @@
 """
 import random
 num = random.randint(1,10)
-test_1 = int(input("请说出第一次猜测的数字:"))
-if test_1 == num:
+test = int(input("请说出第一次猜测的数字:"))
+if test == num:
     print("恭喜你第一次就猜对了")
-    if test_1 > num:
-        print(f"没猜对，比{test_1}小")
+else:
+    if test > num:
+        print(f"没猜对，比{test}小")
     else:
-        print(f"没猜对，比{test_1}大")
-
-    test_2 = int(input("请说出第二次猜测的数字:"))
-    if test_2 == num:
+        print(f"没猜对，比{test}大")
+    test = int(input("请说出第二次猜测的数字:"))
+    if test == num:
         print("恭喜你第二次猜对了")
-        if test_2 > num:
-            print(f"没猜对，比{test_2}小")
-        else:
-            print(f"没猜对，比{test_2}大")
-
-    test_3 = int(input("请说出第三次猜测的数字:"))
-    if test_3 == num:
-        print("恭喜你第二次猜对了")
-        if test_3 > num:
-            print(f"没猜对，比{test_3}小")
-        else:
-            print(f"没猜对，比{test_3}大")
     else:
-        print("Sorry，你输了")
+        if test > num:
+            print(f"没猜对，比{test}小")
+        else:
+            print(f"没猜对，比{test}大")
+        test = int(input("请说出第三次猜测的数字:"))
+        if test == num:
+            print("恭喜你三次猜对了")
+        else:
+            print(f"Sorry，你输了，真正的数字为{num}")
