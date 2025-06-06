@@ -24,4 +24,4 @@ i = 1
 while i <= 100:
     num = num + i
     i += 1
-    print(num)
+print(f"1-100相加的和为{num}")
