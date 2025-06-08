@@ -13,3 +13,6 @@ print("world")
 
 # \t效果为在键盘上按下tab，可以让多行字符串对齐
 print("hello\tworld")
+
+# \n效果为换行
+print("hello\nworld")
