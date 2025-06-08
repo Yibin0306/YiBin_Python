@@ -17,5 +17,5 @@ def add(x,y):
     # 执行不到这，上面就返回了
     print("结束了")
 # return的返回值，可以通过变量去接收
-r = add(num1,num2)
+r = add(num1,num2) # 先调用add，然后再将add返回的值给r
 print(r)
