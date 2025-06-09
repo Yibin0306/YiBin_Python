@@ -15,4 +15,6 @@ print(my_list)
 print(type(my_list))
 
 # 列表支持嵌套
-
+test_list = [[1,2,3,4,5], [6,7,8,9]]
+print(test_list)
+print(type(test_list))
