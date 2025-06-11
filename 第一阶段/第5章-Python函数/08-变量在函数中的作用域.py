@@ -16,7 +16,7 @@ def test_a():
     number = 100
     print(number)
 test_a()# 100正常输出
-# print(num) 会报错num未定义
+# print(number) 会报错num未定义
 
 # 全局变量
 num = 100

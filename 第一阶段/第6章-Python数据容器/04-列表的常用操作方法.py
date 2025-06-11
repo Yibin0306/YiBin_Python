@@ -34,6 +34,14 @@
     语法：列表.count(元素)
     统计列表总共多少元素
     语法：len(列表)
+
+九、 列表特点：
+    1.可容纳多个元素（上限为2**63-1）
+    2.可容纳不同类型的元素（混装）
+    3.数据是有序存放的（有下标序号）
+    4.允许重复数据存在
+    5.可以修改
+
 """
 
 my_list = ["cyb",2,3,4,5]
@@ -41,18 +49,22 @@ add_list = ["追加","的容器"]
 # 查找某元素在列表内的下标索引
 learn_index = my_list.index(4)
 print(learn_index)
+
 # 修改特定位置的元素值
 my_list[1] = "cyb very cool"
 print(my_list)
+
 # 插入元素
 my_list.insert(2,"下标2被插入的元素")
 print(my_list)
+
 # 追加元素
 my_list.append("追加的元素")
 print(my_list)
 # 追加元素方式二
 my_list.extend(add_list)
 print(my_list)
+
 # 删除元素
 del my_list[-1]
 element = my_list.pop(-1)
@@ -60,9 +72,11 @@ print(my_list, f"删除的元素是：{element}")
 # 删除某元素在列表的第一个匹配项
 my_list.remove("下标2被插入的元素")
 print(my_list)
+
 # 清空元素
 my_list.clear()
 print(my_list)
+
 # 统计元素个数
 my_list = ["cyb",2,3,2,5]
 print(my_list.count(2))
