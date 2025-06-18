@@ -15,9 +15,9 @@ worker_dict = {
     }
 }
 print(f"全体员工当心信息如下:\n{worker_dict}")
-# 全体员工级别为1的员工完成升职+1加薪+1000操作
+# 全体员工级别为1的员工完成升职到2加薪+1000操作
 for key in worker_dict:
     if worker_dict[key]["级别"] == 1:
-        worker_dict[key]["级别"] += 1
+        worker_dict[key]["级别"] = 2
         worker_dict[key]["工资"] += 1000
 print(f"全体员工级别为1的员工完成升职加薪操作，操作后:\n{worker_dict}")
