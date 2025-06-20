@@ -1,5 +1,5 @@
 """
-自写
+自写（有bug）
 f = open("D:/word.txt","r",encoding="utf-8")
 num = 0
 for line in f:
