@@ -54,7 +54,7 @@ line.set_global_opts(
 )
 
 # 调用render方法生成图像
-line.render()
+line.render("确诊人数对比折线图.html")
 # 关闭文件
 f_us.close()
 f_jp.close()

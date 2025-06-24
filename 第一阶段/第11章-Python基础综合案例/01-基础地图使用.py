@@ -1,6 +1,4 @@
 # 导包：导入Map功能构建地图对象
-from cProfile import label
-
 from pyecharts.charts import Map
 from pyecharts.options import VisualMapOpts
 
