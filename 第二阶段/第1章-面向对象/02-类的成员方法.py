@@ -31,7 +31,7 @@ class Student:
     def say_hi(self):
         print("Hello, my name is %s" % self.name)
 
-    def say_hello(self, msg):
+    # def say_hello(self, msg)
 
 Student_1 = Student()
 Student_1.name = "cyb"
