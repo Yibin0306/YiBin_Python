@@ -29,10 +29,12 @@ class Student:
     name = None
 
     def say_hi(self):
-        print("Hello, my name is %s" % self.name)
+        print(f"Hello, my name is {self.name}")
 
-    # def say_hello(self, msg)
+    def say_hello(self, msg):
+        print(f"Hello, my name is {self.name}, {msg}")
 
-Student_1 = Student()
-Student_1.name = "cyb"
-Student_1.say_hi()
+Stu = Student()
+Stu.name = "YiBin"
+Stu.say_hi()
+Stu.say_hello("my buy vook one 2.0")
