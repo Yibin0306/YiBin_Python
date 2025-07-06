@@ -8,5 +8,6 @@ ctrl + p 显示方法的参数信息
 ctrl + q 显示文档字符串（Docstring）
 ctrl + / 注释/取消注释当前行
 ctrl + b 或 ctrl + 左键点击 跳转到定义
-ctrl + K： 提交更改
+ctrl + K 提交更改
+Alt + 回车 快速导包
 """
