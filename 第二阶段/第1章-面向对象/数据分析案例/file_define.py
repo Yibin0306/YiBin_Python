@@ -51,12 +51,12 @@ class JsonFileReader(FileReader):
 
 
 if __name__ == '__main__':
-    text_file_reader = TextFileReader("D:/Download/可视化案例数据/面向对象案例/2011年1月销售数据.txt")
+    text_file_reader = TextFileReader("D:/Resources/可视化案例数据/面向对象案例/2011年1月销售数据.txt")
     list1 = text_file_reader.data_read()
     for i in list1:
         print(i)
 
-    json_file_reader = JsonFileReader("D:/Download/可视化案例数据/面向对象案例/2011年2月销售数据JSON.txt")
+    json_file_reader = JsonFileReader("D:/Resources/可视化案例数据/面向对象案例/2011年2月销售数据JSON.txt")
     list2 = json_file_reader.data_read()
     for l in list2:
         print(l)

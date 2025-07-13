@@ -3,9 +3,9 @@ from pyecharts.charts import Line
 from pyecharts.options import TitleOpts, LegendOpts, ToolboxOpts, VisualMapOpts
 
 # 处理数据
-f_us = open("D:/Download/可视化案例数据/折线图数据/美国.txt","r",encoding="utf-8")
-f_jp = open("D:/Download/可视化案例数据/折线图数据/日本.txt","r",encoding="utf-8")
-f_in = open("D:/Download/可视化案例数据/折线图数据/印度.txt","r",encoding="utf-8")
+f_us = open("D:/Resources/可视化案例数据/折线图数据/美国.txt","r",encoding="utf-8")
+f_jp = open("D:/Resources/可视化案例数据/折线图数据/日本.txt","r",encoding="utf-8")
+f_in = open("D:/Resources/可视化案例数据/折线图数据/印度.txt","r",encoding="utf-8")
 us_data = f_us.read()
 jp_data = f_jp.read()
 in_data = f_in.read()

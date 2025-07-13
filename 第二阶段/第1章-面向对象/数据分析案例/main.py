@@ -14,8 +14,8 @@ from pyecharts.charts import Bar
 from pyecharts.options import *
 from pyecharts.globals import ThemeType
 
-text_file_reader = TextFileReader("D:/Download/可视化案例数据/面向对象案例/2011年1月销售数据.txt")
-json_file_reader = JsonFileReader("D:/Download/可视化案例数据/面向对象案例/2011年2月销售数据JSON.txt")
+text_file_reader = TextFileReader("D:/Resources/可视化案例数据/面向对象案例/2011年1月销售数据.txt")
+json_file_reader = JsonFileReader("D:/Resources/可视化案例数据/面向对象案例/2011年2月销售数据JSON.txt")
 
 jan_data: list[Record] = text_file_reader.data_read()
 feb_data: list[Record] = json_file_reader.data_read()

@@ -3,7 +3,7 @@ from pyecharts.globals import ThemeType
 from pyecharts.options import *
 
 # 读取数据
-f = open("D:/Download/可视化案例数据/动态柱状图数据/1960-2019全球GDP数据.csv","r",encoding="GB2312")
+f = open("D:/Resources/可视化案例数据/动态柱状图数据/1960-2019全球GDP数据.csv","r",encoding="GB2312")
 data_lines = f.readlines()
 
 # 关闭文件
