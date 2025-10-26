@@ -16,5 +16,3 @@ print("hello\tworld")
 
 # \n效果为换行
 print("hello\nworld")
-
-print("TREST")
