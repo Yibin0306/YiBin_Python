@@ -18,5 +18,5 @@ class Student:
         self.tel = tel
         print("Student类创建了一个对象") # 证明会自动执行
 
-student = Student("Yibin","18","17629754212") # 传入参数自动传递给__init__方法
+student = Student("Yibin","18","176297") # 传入参数自动传递给__init__方法
 print(f"姓名:{student.name},年龄:{student.age},电话:{student.tel}")
